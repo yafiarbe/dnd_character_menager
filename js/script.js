@@ -35,19 +35,46 @@ sendWeapon.addEventListener('click', () => {
     sendWeaponToDataBase()
 })
 
-
+/* БЛОК ДОБАВЛЕНИЯ ОРУЖИЯ В БАЗУ ДАННЫХ САЙТА */
 function sendWeaponToDataBase() {
+
     const textWeapon = document.querySelector('#nameWeapon');
     const newTask = {
         content: `${textWeapon.value}`,
         completed: false,
     };
 
+    const newWeapon = {
+        type: "",
+        name: "",
+        cost: {
+            gold: 0,
+            silver: 0,
+            copper: 0
+        },
+        damage: {
+            value: "1к",
+            type: ""
+        },
+        weight: 0,
+        distance: {
+            min: 0,
+            max: 0
+        },
+        properties: [],
+        options: [],
+        description: "",
+        img: "../img/",
+    }
+
+
+
+
     fetch('https://6536d186bb226bb85dd2a7da.mockapi.io/1/characters', {
         method: 'POST',
         headers: { 'content-type': 'application/json' },
         // Send your data in the request body as JSON
-        body: JSON.stringify(newTask)
+        body: JSON.stringify(newWeapon)
     }).then(res => {
         if (res.ok) {
             return res.json();

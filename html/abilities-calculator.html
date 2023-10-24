@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Abilities Calculator</title>
+</head>
+<body>
+
+    <header class="header"></header>
+    <main class="main">
+        <h1 class="title">Abilities Calculator</h1>
+
+
+        <div class="abilities-settings">
+            <h2>abilities settings</h2>
+            <form action="">
+                <label for="abilities-min">abilities min</label>
+                <input type="number" name="abilities-min" id="abilities-min" min="0" value="8">
+
+                <label for="abilities-max">abilities max</label>
+                <input type="number" name="abilities-max" id="abilities-max" min="0" value="15">
+
+                <label for="points">points</label>
+                <input type="number" name="points" id="points" min="0" max="" value="27">
+            </form>
+        </div>
+
+
+        <div class="ability-calculus">
+            <h2>ability calculus</h2>
+            <form action="" method="post">
+    
+                <label for="strength">strength</label>
+                <input type="number" name="strength" id="strength" min="8" max="15" value="8">
+                <input type="number" name="strength-modifier" id="strength-modifier" readonly>
+                
+                <br>
+                
+                <label for="strength">dexterity</label>
+                <input type="number" name="dexterity" id="dexterity" min="8" max="15" value="8">
+                <input type="number" name="dexterity-modifier" id="dexterity-modifier" readonly>
+                
+                <br>
+                
+                <label for="constitution">constitution</label>
+                <input type="number" name="constitution" id="constitution" min="8" max="15" value="8">
+                <input type="number" name="constitution-modifier" id="constitution-modifier" readonly>
+                
+                <br>
+                
+                <label for="intelligence">intelligence</label>
+                <input type="number" name="intelligence" id="intelligence" min="8" max="15" value="8">
+                <input type="number" name="intelligence-modifier" id="intelligence-modifier" readonly>
+                
+                <br>
+                
+                <label for="wisdom">wisdom</label>
+                <input type="number" name="wisdom" id="wisdom" min="8" max="15" value="8">
+                <input type="number" name="wisdom-modifier" id="wisdom-modifier" readonly>
+                
+                <br>
+                
+                <label for="charisma">charisma</label>
+                <input type="number" name="charisma" id="charisma" min="8" max="15" value="8">
+                <input type="number" name="charisma-modifier" id="charisma-modifier" readonly>
+                
+                <br>
+                <br>
+                
+                <label for="character">character</label>
+                <input type="text" name="character" id="character">
+                
+                <br>
+                
+                <input type="button" value="Отправить">
+                
+            </form>
+        </div>
+
+
+    </main>
+    <footer class="footer"></footer>
+
+    <script src="../js/abilities-calculator.js"></script>
+</body>
+</html>
