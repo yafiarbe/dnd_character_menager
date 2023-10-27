@@ -15,7 +15,7 @@
   align-items: center;
   padding: 5px;
   height: 100%;
-  background-color: #fff;
+  background-color: #A6998F;
   border-radius: 5px;
 }
 .settings-abilities__title {
@@ -24,9 +24,11 @@
 .settings-abilities__input {
   width: 20px;
   height: 100%;
+  border: 1px solid #262522;
+  font-weight: bold;
   border-radius: 5px;
   text-align: center;
-  font-size: 12px;
+  font-size: 16px;
 }
 /***
     The new CSS reset - version 1.11.1 (last updated 24.10.2023)
