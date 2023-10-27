@@ -92,13 +92,9 @@
     }
 }
 
-
-
 .abilities-cards {
-
     // .abilities-cards__item
     &__item {
-        
     }
     // .abilities-cards__title
     &__title {
@@ -135,8 +131,6 @@
     }
 }
 
-
-
 .abilities-cards {
     // .abilities-cards__container
     &__container {
@@ -156,7 +150,6 @@
         justify-content: space-between;
         align-items: stretch;
         gap: 5px;
-        
     }
     // .abilities-cards__title
     &__title {
@@ -170,8 +163,6 @@
         flex-direction: row;
         gap: 5px;
         justify-content: space-between;
-        
-        
     }
     // .abilities-cards__minus
     &__minus {
@@ -200,7 +191,6 @@
         font-weight: 800;
         background-color: $color-text-card-background-light;
         border-radius: 5px;
-        
     }
     // .abilities-cards__value-top
     &__value-top {
@@ -210,9 +200,8 @@
     }
     // .abilities-cards__value-bot
     &__value-bot {
-        background-color: #D9CCC1;
+        background-color: #d9ccc1;
         border-radius: 0 0 5px 5px;
-
     }
     // .abilities-cards__sub-title
     &__sub-title {
@@ -224,7 +213,6 @@
     &__modifier {
         font-weight: 400;
         font-size: 14px;
-        
     }
     // .abilities-cards__plus
     &__plus {
