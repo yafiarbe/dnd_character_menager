@@ -73,7 +73,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  max-width: 140px;
+  max-width: 150px;
   background-color: #A6998F;
   border-radius: 5px;
   padding: 5px;
@@ -103,8 +103,8 @@
   text-align: center;
 }
 .abilities-cards__btn {
-  width: 30px;
-  height: 30px;
+  width: 35px;
+  height: 35px;
   border-radius: 5px;
   display: flex;
   justify-content: center;
@@ -321,5 +321,5 @@ input[type=number]:focus {
   margin: 0 auto;
   background-color: #403C37;
   flex: 1 1 auto;
-  min-height: 100vh;
+  min-height: calc(100vh - 50px);
 }/*# sourceMappingURL=main.css.map */
