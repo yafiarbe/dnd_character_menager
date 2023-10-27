@@ -1,42 +1,60 @@
 .abilities {
-    
     // .abilities__container
     &__container {
         width: 100%;
         padding: 10px;
     }
-    // .abilities__settings
+    // .abilities__settings-abilities
     &__settings {
     }
 }
-.settings {
-    // .settings__item
+.settings-abilities {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    height: 40px;
+    align-items: center;
+    // .settings-abilities__item
     &__item {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 5px;
+        height: 100%;
+        background-color: #fff;
+        border-radius: 5px;
     }
-    // .settings__title
+    // .settings-abilities__title
     &__title {
-        // .settings__title--min
+        font-size: 12px;
+        // .settings-abilities__title--min
         &--min {
         }
-        // .settings__title--max
+        // .settings-abilities__title--max
         &--max {
         }
-        // .settings__title--points-max
+        // .settings-abilities__title--points-max
         &--points-max {
         }
     }
-    // .settings__abilities
+    // .settings-abilities__abilities
     &__abilities {
-        // .settings__abilities--min
+        // .settings-abilities__abilities--min
         &--min {
         }
-        // .settings__abilities--max
+        // .settings-abilities__abilities--max
         &--max {
         }
     }
-    // .settings__input
+    // .settings-abilities__input
     &__input {
-        // .settings__input--max
+        width: 20px;
+        height: 100%;
+        // border: 1px solid $color-text-main;
+        border-radius: 5px;
+        text-align: center;
+        font-size: 12px;
+        // .settings-abilities__input--max
         &--max {
         }
     }
