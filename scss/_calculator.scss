@@ -93,10 +93,13 @@
 }
 
 .abilities-cards {
+    display: flex;
+    justify-content: center;
     // .abilities-cards__container
     &__container {
         display: grid;
         grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto;
         gap: 10px;
         padding: 10px;
     }
@@ -105,10 +108,11 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+        justify-content: space-between;
+        max-width: 140px;
         background-color: $color-text-card-background;
         border-radius: 5px;
         padding: 5px;
-        justify-content: space-between;
         align-items: stretch;
         gap: 5px;
     }
@@ -170,7 +174,7 @@
     &__sub-title {
         text-align: center;
         font-size: 5px;
-        padding: 5px;
+        padding: 5px 5px 0px;
     }
     // .abilities-cards__modifier
     &__modifier {
