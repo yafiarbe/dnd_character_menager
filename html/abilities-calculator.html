@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,8 +9,9 @@
 
     <title>Document</title>
 </head>
+
 <body class="body">
-    
+
     <header class="header">
 
     </header>
@@ -21,32 +23,95 @@
                     <div class="abilities__settings settings-abilities">
 
                         <div class="settings-abilities__item">
-                            <label for="settings-abilitiesInputAbilitiesMin" class="settings-abilities__title settings-abilities__title--min">Минимальное значение: </label>
-                            <input type="number" name="settings-abilitiesInputAbilitiesMin" id="settings-abilitiesInputAbilitiesMin" class="settings-abilities__input settings-abilities__abilities--min" min="0" value="8">
+                            <label for="settings-abilitiesInputAbilitiesMin"
+                                class="settings-abilities__title settings-abilities__title--min">Мин. <br> значение:
+                            </label>
+                            <input type="number" name="settings-abilitiesInputAbilitiesMin"
+                                id="settings-abilitiesInputAbilitiesMin"
+                                class="settings-abilities__input settings-abilities__abilities--min" min="0" value="8">
                         </div>
 
                         <div class="settings-abilities__item">
-                            <label for="settings-abilitiesInputAbilitiesMax" class="settings-abilities__title settings-abilities__title--max">Максимальное значение: </label>
-                            <input type="number" name="settings-abilitiesInputAbilitiesMax" id="settings-abilitiesInputAbilitiesMax" class="settings-abilities__input settings-abilities__abilities--max" min="0" value="15">
+                            <label for="settings-abilitiesInputAbilitiesMax"
+                                class="settings-abilities__title settings-abilities__title--max">Мак. <br> значение:
+                            </label>
+                            <input type="number" name="settings-abilitiesInputAbilitiesMax"
+                                id="settings-abilitiesInputAbilitiesMax"
+                                class="settings-abilities__input settings-abilities__abilities--max" min="0" value="15">
                         </div>
 
                         <div class="settings-abilities__item">
-                            <label for="settings-abilitiesInputPointMax" class="settings-abilities__title settings-abilities__title--points-max">Количество очков:</label>
-                            <input type="number" name="settings-abilitiesInputPointMax" id="settings-abilitiesInputPointMax" class="settings-abilities__input settings-abilities__input--max" min="0" value="27">
+                            <label for="settings-abilitiesInputPointMax"
+                                class="settings-abilities__title settings-abilities__title--points-max">Количество
+                                очков:</label>
+                            <input type="number" name="settings-abilitiesInputPointMax"
+                                id="settings-abilitiesInputPointMax"
+                                class="settings-abilities__input settings-abilities__input--max" min="0" value="27">
                         </div>
 
                         <div class="settings-abilities__free-points">
                             <label for="" class="settings-abilities__title">Свободно очков:</label>
-                            <input type="number" name="" id="" class="settings-abilities__input settings-abilities__input--max" min="0" value="27">
+                            <input type="number" name="" id=""
+                                class="settings-abilities__input settings-abilities__input--max" min="0" value="27">
                         </div>
 
                     </div>
                 </div>
             </section>
 
+            <section class="abilities-cards">
+
+                <div class="abilities-cards__container">
+
+                    <div class="abilities-cards__item">
+                        <h2 class="abilities-cards__title">сила</h2>
+                        <div class="abilities-cards__body">
+                            <div class="abilities-cards__minus">
+                                <div class="abilities-cards__cost">1</div>
+                                <div class="abilities-cards__btn">-</div>
+                            </div>
+                            <div class="abilities-cards__value">
+                                <div class="abilities-cards__value-top">8</div>
+                                <div class="abilities-cards__value-bot">
+                                    <h2 class="abilities-cards__sub-title">Модификатор:</h2>
+                                    <span class="abilities-cards__modifier">1</span>
+                                </div>
+                            </div>
+                            <div class="abilities-cards__plus">
+                                <div class="abilities-cards__cost">-1</div>
+                                <div class="abilities-cards__btn">+</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="abilities-cards__item">
+                        <h2 class="abilities-cards__title">ловкость</h2>
+                        <div class="abilities-cards__body">
+                            <div class="abilities-cards__minus">
+                                <div class="abilities-cards__cost">1</div>
+                                <div class="abilities-cards__btn">-</div>
+                            </div>
+                            <div class="abilities-cards__value">
+                                <div class="abilities-cards__value-top">8</div>
+                                <div class="abilities-cards__value-bot">
+                                    <h2 class="abilities-cards__sub-title">Модификатор:</h2>
+                                    <span class="abilities-cards__modifier">1</span>
+                                </div>
+                            </div>
+                            <div class="abilities-cards__plus">
+                                <div class="abilities-cards__cost">-1</div>
+                                <div class="abilities-cards__btn">+</div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
 
 
-            
+
+            </section>
+
+
 
 
 
@@ -56,4 +121,5 @@
 
     </footer>
 </body>
+
 </html>
