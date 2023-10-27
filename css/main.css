@@ -6,29 +6,33 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 10px;
-  height: 40px;
+  height: auto;
   align-items: center;
 }
 .settings-abilities__item {
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
   align-items: center;
   padding: 5px;
   height: 100%;
   background-color: #A6998F;
   border-radius: 5px;
+  gap: 5px;
 }
 .settings-abilities__title {
-  font-size: 12px;
+  font-size: 14px;
+  text-align: center;
 }
 .settings-abilities__input {
-  width: 20px;
-  height: 100%;
+  width: 34px;
+  height: 34px;
   border: 1px solid #262522;
   font-weight: bold;
   border-radius: 5px;
   text-align: center;
   font-size: 16px;
+  background-color: #F2E6D8;
 }
 /***
     The new CSS reset - version 1.11.1 (last updated 24.10.2023)
@@ -153,10 +157,11 @@ input[type=number]:focus {
 
 .body {
   background-color: #201d1a;
+  color: #201d1a;
 }
 
 .page {
-  max-width: 360px;
+  max-width: 720px;
   width: 100%;
   margin: 0 auto;
   background-color: #403C37;
