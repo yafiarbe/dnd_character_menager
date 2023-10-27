@@ -1,0 +1,43 @@
+.abilities {
+    
+    // .abilities__container
+    &__container {
+        width: 100%;
+        padding: 10px;
+    }
+    // .abilities__settings
+    &__settings {
+    }
+}
+.settings {
+    // .settings__item
+    &__item {
+    }
+    // .settings__title
+    &__title {
+        // .settings__title--min
+        &--min {
+        }
+        // .settings__title--max
+        &--max {
+        }
+        // .settings__title--points-max
+        &--points-max {
+        }
+    }
+    // .settings__abilities
+    &__abilities {
+        // .settings__abilities--min
+        &--min {
+        }
+        // .settings__abilities--max
+        &--max {
+        }
+    }
+    // .settings__input
+    &__input {
+        // .settings__input--max
+        &--max {
+        }
+    }
+}

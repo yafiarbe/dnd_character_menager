@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/main.css">
+    <title>Abilities Calculator</title>
+</head>
+
+<body class="body">
+
+    <div class="body__container">
+
+        <div class="ability ability--strength">
+            <label for="strength">strength</label>
+            <div id="strength-modifier" class="modifier">mod</div>
+            <div class="ability__input-body">
+                <input type="number" data-input-abilities name="strength" id="strength" class="input-abilities" min="8" max="15" value="8">
+                <div class="ability__bun-body">
+                    <button data-ability="strength" data-btn="minus" class="ability__button ability__button--minus strength-btn">-</button>
+                    <button data-ability="strength" data-btn="plus" class="ability__button ability__button--plus strength-btn">+</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="ability ability--dexterity">
+            <label for="dexterity">dexterity</label>
+            <div id="dexterity-modifier" class="modifier">mod</div>
+            <div class="ability__input-body">
+                <input type="number" data-input-abilities name="dexterity" id="dexterity" class="input-abilities" min="8" max="15" value="8">
+                <div class="ability__bun-body">
+                    <button data-ability="dexterity" data-btn="minus" onclick="" class="ability__button ability__button--minus dexterity-btn">-</button>
+                    <button data-ability="dexterity" data-btn="plus" class="ability__button ability__button--plus dexterity-btn">+</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="ability ability--constitution">
+            <label for="constitution">constitution</label>
+            <div id="constitution-modifier" class="modifier">mod</div>
+            <div class="ability__input-body">
+                <input type="number" data-input-abilities name="constitution" id="constitution" class="input-abilities" min="8" max="15" value="8">
+                <div class="ability__bun-body">
+                    <button data-ability="constitution" data-btn="minus" class="ability__button ability__button--minus constitution-btn">-</button>
+                    <button data-ability="constitution" data-btn="plus" class="ability__button ability__button--plus constitution-btn">+</button>
+                </div>
+            </div>
+        </div>
+
+        
+    </div>
+
+
+<br>
+<br><br>
+
+        
+
+
+    </main>
+    <footer class="footer"></footer>
+
+    <script src="../js/abilities-calculator.js"></script>
+</body>
+
+</html>

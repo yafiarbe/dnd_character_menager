@@ -3,86 +3,52 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/style.css">
-    <title>Abilities Calculator</title>
+
+    <link rel="stylesheet" href="../css/main.css">
+
+    <title>Document</title>
 </head>
-<body>
-
-    <header class="header"></header>
-    <main class="main">
-        <h1 class="title">Abilities Calculator</h1>
-
-
-        <div class="abilities-settings">
-            <h2>abilities settings</h2>
-            <form action="">
-                <label for="abilities-min">abilities min</label>
-                <input type="number" name="abilities-min" id="abilities-min" min="0" value="8">
-
-                <label for="abilities-max">abilities max</label>
-                <input type="number" name="abilities-max" id="abilities-max" min="0" value="15">
-
-                <label for="points">points</label>
-                <input type="number" name="points" id="points" min="0" max="" value="27">
-            </form>
-        </div>
-
-
-        <div class="ability-calculus">
-            <h2>ability calculus</h2>
-            <form action="" method="post">
+<body class="body">
     
-                <label for="strength">strength</label>
-                <input type="number" name="strength" id="strength" min="8" max="15" value="8">
-                <input type="number" name="strength-modifier" id="strength-modifier" readonly>
-                
-                <br>
-                
-                <label for="strength">dexterity</label>
-                <input type="number" name="dexterity" id="dexterity" min="8" max="15" value="8">
-                <input type="number" name="dexterity-modifier" id="dexterity-modifier" readonly>
-                
-                <br>
-                
-                <label for="constitution">constitution</label>
-                <input type="number" name="constitution" id="constitution" min="8" max="15" value="8">
-                <input type="number" name="constitution-modifier" id="constitution-modifier" readonly>
-                
-                <br>
-                
-                <label for="intelligence">intelligence</label>
-                <input type="number" name="intelligence" id="intelligence" min="8" max="15" value="8">
-                <input type="number" name="intelligence-modifier" id="intelligence-modifier" readonly>
-                
-                <br>
-                
-                <label for="wisdom">wisdom</label>
-                <input type="number" name="wisdom" id="wisdom" min="8" max="15" value="8">
-                <input type="number" name="wisdom-modifier" id="wisdom-modifier" readonly>
-                
-                <br>
-                
-                <label for="charisma">charisma</label>
-                <input type="number" name="charisma" id="charisma" min="8" max="15" value="8">
-                <input type="number" name="charisma-modifier" id="charisma-modifier" readonly>
-                
-                <br>
-                <br>
-                
-                <label for="character">character</label>
-                <input type="text" name="character" id="character">
-                
-                <br>
-                
-                <input type="button" value="Отправить">
-                
-            </form>
+    <header class="header">
+
+    </header>
+    <main class="main">
+        <div class="page">
+
+            <section class="abilities">
+                <div class="abilities__container">
+                    <div class="abilities__settings settings">
+
+                        <div class="settings__item">
+                            <label for="settingsInputAbilitiesMin" class="settings__title settings__title--min">Min value</label>
+                            <input type="number" name="settingsInputAbilitiesMin" id="settingsInputAbilitiesMin" class="settings__abilities settings__abilities--min" min="0" value="8">
+                        </div>
+
+                        <div class="settings__item">
+                            <label for="settingsInputAbilitiesMax" class="settings__title settings__title--max">Max value</label>
+                            <input type="number" name="settingsInputAbilitiesMax" id="settingsInputAbilitiesMax" class="settings__abilities settings__abilities--max" min="0" value="15">
+                        </div>
+
+                        <div class="settings__item">
+                            <label for="settingsInputPointMax" class="settings__title settings__title--points-max">Max Points</label>
+                            <input type="number" name="settingsInputPointMax" id="settingsInputPointMax" class="settings__input settings__input--max" min="0" value="27">
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+
+
+
+
+
+
         </div>
-
-
     </main>
-    <footer class="footer"></footer>
+    <footer class="footer">
 
-    <script src="../js/abilities-calculator.js"></script>
+    </footer>
 </body>
 </html>
