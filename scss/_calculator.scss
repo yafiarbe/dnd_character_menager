@@ -93,45 +93,6 @@
 }
 
 .abilities-cards {
-    // .abilities-cards__item
-    &__item {
-    }
-    // .abilities-cards__title
-    &__title {
-    }
-    // .abilities-cards__body
-    &__body {
-    }
-    // .abilities-cards__minus
-    &__minus {
-    }
-    // .abilities-cards__cost
-    &__cost {
-    }
-    // .abilities-cards__btn
-    &__btn {
-    }
-    // .abilities-cards__value
-    &__value {
-    }
-    // .abilities-cards__value-top
-    &__value-top {
-    }
-    // .abilities-cards__value-bot
-    &__value-bot {
-    }
-    // .abilities-cards__sub-title
-    &__sub-title {
-    }
-    // .abilities-cards__modifier
-    &__modifier {
-    }
-    // .abilities-cards__plus
-    &__plus {
-    }
-}
-
-.abilities-cards {
     // .abilities-cards__container
     &__container {
         display: grid;
@@ -202,11 +163,13 @@
     &__value-bot {
         background-color: #d9ccc1;
         border-radius: 0 0 5px 5px;
+        display: flex;
+        flex-direction: column;
     }
     // .abilities-cards__sub-title
     &__sub-title {
         text-align: center;
-        font-size: 7px;
+        font-size: 5px;
         padding: 5px;
     }
     // .abilities-cards__modifier

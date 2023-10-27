@@ -114,10 +114,12 @@
 .abilities-cards__value-bot {
   background-color: #d9ccc1;
   border-radius: 0 0 5px 5px;
+  display: flex;
+  flex-direction: column;
 }
 .abilities-cards__sub-title {
   text-align: center;
-  font-size: 7px;
+  font-size: 5px;
   padding: 5px;
 }
 .abilities-cards__modifier {
