@@ -84,6 +84,7 @@
   text-transform: uppercase;
   font-weight: 800;
   align-self: center;
+  font-size: 12px;
 }
 .abilities-cards__body {
   display: flex;
@@ -154,42 +155,30 @@
   align-items: center;
 }
 
-.abil-card {
-  width: 160px;
-  height: 240px;
-  background-color: #d9ccc1;
-  border-radius: 5px;
-  padding: 10px;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(6, 1fr);
-  grid-column-gap: 10px;
-  grid-row-gap: 10px;
-  place-items: center;
-  text-align: center;
+.header {
+  position: relative;
 }
-.abil-card__title {
-  grid-area: 1/1/2/3;
-}
-.abil-card__info {
-  grid-area: 2/1/5/3;
-  width: 100px;
-  height: 130px;
-  background: #F2E6D8;
-  border-radius: 5px;
-}
-.abil-card__btn {
-  width: 65px;
+
+.navmenu {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
   height: 50px;
-  border-radius: 5px;
+  background: #201d1a;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 }
-.abil-card__btn--minus {
-  background: red;
-  grid-area: 5/1/7/2;
-}
-.abil-card__btn--plus {
-  background: green;
-  grid-area: 5/2/7/3;
+
+.nav__item {
+  flex: auto;
+  display: grid;
+  place-items: center;
+  border: 1px solid #d9ccc1;
+  height: 100%;
+  font-weight: 800;
+  color: #d9ccc1;
 }
 
 /***
@@ -319,9 +308,18 @@ input[type=number]:focus {
   font-family: Montserrat Alternates;
 }
 
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+}
+
 .page {
   max-width: 720px;
   width: 100%;
   margin: 0 auto;
   background-color: #403C37;
+  flex: 1 1 auto;
+  min-height: 100vh;
 }/*# sourceMappingURL=main.css.map */
