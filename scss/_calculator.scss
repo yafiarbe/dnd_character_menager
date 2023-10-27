@@ -149,28 +149,33 @@
     &__item {
         display: flex;
         flex-direction: column;
-        justify-content: center;
         align-items: center;
         background-color: $color-text-card-background;
         border-radius: 5px;
+        padding: 5px;
+        justify-content: space-between;
+        align-items: stretch;
+        gap: 5px;
         
     }
     // .abilities-cards__title
     &__title {
         text-transform: uppercase;
         font-weight: 800;
+        align-self: center;
     }
     // .abilities-cards__body
     &__body {
         display: flex;
         flex-direction: row;
-        justify-content: space-between;
         gap: 5px;
+        justify-content: space-between;
         
         
     }
     // .abilities-cards__minus
     &__minus {
+        align-self: flex-end;
     }
     // .abilities-cards__cost
     &__cost {
@@ -187,29 +192,42 @@
     }
     // .abilities-cards__value
     &__value {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1.3fr 1fr;
         text-align: center;
         font-size: 24px;
         font-weight: 800;
         background-color: $color-text-card-background-light;
-        padding: 5px;
+        border-radius: 5px;
+        
     }
     // .abilities-cards__value-top
     &__value-top {
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
     // .abilities-cards__value-bot
     &__value-bot {
+        background-color: #D9CCC1;
+        border-radius: 0 0 5px 5px;
+
     }
     // .abilities-cards__sub-title
     &__sub-title {
         text-align: center;
-        font-size: 8px;
+        font-size: 7px;
+        padding: 5px;
     }
     // .abilities-cards__modifier
     &__modifier {
         font-weight: 400;
         font-size: 14px;
+        
     }
     // .abilities-cards__plus
     &__plus {
+        align-self: flex-end;
     }
 }
